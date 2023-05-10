@@ -1,0 +1,23 @@
+// The Test Table
+digraph {
+rankdir=LR	A [label=A]
+	B [label=B]
+	C [label=C]
+	D [label=D]
+	E [label=E]
+	F [label=F]
+	G [label=G]
+	H [label=H]
+	I [label=I]
+	A -> B [color=red]
+	B -> C [color=red]
+	B -> D [color=black]
+	C -> E [color=red]
+	D -> E [color=black]
+	A -> F [color=black]
+	E -> G [color=red]
+	E -> H [color=black]
+	F -> I [color=black]
+	G -> I [color=red]
+	H -> I [color=black]
+}
